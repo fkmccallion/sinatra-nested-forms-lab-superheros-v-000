@@ -6,8 +6,5 @@ class Hero
 
   end
 
-  def create_with_hash(params)
-    binding.pry
-  end
 
 end
