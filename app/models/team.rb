@@ -5,7 +5,6 @@ class Team
   def initialize(params)
     @name = params[:team][:name]
     @motto = params[:team][:motto]
-    @members = []
   end
 
 end
