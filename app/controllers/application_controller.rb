@@ -11,7 +11,7 @@ class App < Sinatra::Base
     post '/teams' do
       @team = Team.new(params)
       @members = Hero.create_with_hash(params)
-      binding.pry
+      #binding.pry
       erb :team
     end
 
