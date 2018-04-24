@@ -14,5 +14,4 @@ class Hero
     @@all
   end
 
-
 end
